@@ -3,7 +3,7 @@ import requests
 from flask import Flask, redirect, request, render_template
 from github import Github
 
-app = Flask(__name__,)
+app = Flask(__name__)
 
 CLIENT_ID = os.environ.get('client_id')
 CLIENT_SECRET = os.environ.get('client_secret')
